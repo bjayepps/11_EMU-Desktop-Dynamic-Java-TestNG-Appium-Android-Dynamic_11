@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.LongTest" hash-for-method="longTest(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)">longTest(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.LongTest" hash-for-method="longTest(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)">longTest(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.LongTest" hash-for-method="longTest(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)">longTest(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.LongTest" hash-for-method="longTest(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)">longTest(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.LongTest" hash-for-method="longTest(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)">longTest(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.TwoPlusTwoTest" hash-for-method="twoPlusTwoOperation(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)">twoPlusTwoOperation(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.TwoPlusTwoTest" hash-for-method="twoPlusTwoOperation(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)">twoPlusTwoOperation(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.TwoPlusTwoTest" hash-for-method="twoPlusTwoOperation(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)">twoPlusTwoOperation(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.TwoPlusTwoTest" hash-for-method="twoPlusTwoOperation(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)">twoPlusTwoOperation(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.saucelabs.Tests.TwoPlusTwoTest" hash-for-method="twoPlusTwoOperation(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)">twoPlusTwoOperation(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucelabs.Tests.LongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="longTest(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)">
+                  </a> <!-- longTest(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...) -->
+                  <span class="method-name">longTest</span>
+                  <span class="parameters">(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longTest(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)">
+                  </a> <!-- longTest(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...) -->
+                  <span class="method-name">longTest</span>
+                  <span class="parameters">(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longTest(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)">
+                  </a> <!-- longTest(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...) -->
+                  <span class="method-name">longTest</span>
+                  <span class="parameters">(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longTest(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)">
+                  </a> <!-- longTest(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...) -->
+                  <span class="method-name">longTest</span>
+                  <span class="parameters">(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longTest(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)">
+                  </a> <!-- longTest(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...) -->
+                  <span class="method-name">longTest</span>
+                  <span class="parameters">(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucelabs.Tests.TwoPlusTwoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoPlusTwoOperation(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)">
+                  </a> <!-- twoPlusTwoOperation(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...) -->
+                  <span class="method-name">twoPlusTwoOperation</span>
+                  <span class="parameters">(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoPlusTwoOperation(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)">
+                  </a> <!-- twoPlusTwoOperation(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...) -->
+                  <span class="method-name">twoPlusTwoOperation</span>
+                  <span class="parameters">(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoPlusTwoOperation(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)">
+                  </a> <!-- twoPlusTwoOperation(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...) -->
+                  <span class="method-name">twoPlusTwoOperation</span>
+                  <span class="parameters">(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoPlusTwoOperation(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)">
+                  </a> <!-- twoPlusTwoOperation(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...) -->
+                  <span class="method-name">twoPlusTwoOperation</span>
+                  <span class="parameters">(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoPlusTwoOperation(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)">
+                  </a> <!-- twoPlusTwoOperation(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...) -->
+                  <span class="method-name">twoPlusTwoOperation</span>
+                  <span class="parameters">(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucelabs.Tests.TwoPlusTwoTest&quot;/&gt;
+      &lt;class name=&quot;com.saucelabs.Tests.TestSetup&quot;/&gt;
+      &lt;class name=&quot;com.saucelabs.Tests.LongTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'longTest')
+data.setCell(0, 2, 'com.saucelabs.Tests.LongTest')
+data.setCell(0, 3, 115165);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'longTest')
+data.setCell(1, 2, 'com.saucelabs.Tests.LongTest')
+data.setCell(1, 3, 114457);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'longTest')
+data.setCell(2, 2, 'com.saucelabs.Tests.LongTest')
+data.setCell(2, 3, 110198);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'longTest')
+data.setCell(3, 2, 'com.saucelabs.Tests.LongTest')
+data.setCell(3, 3, 110099);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'longTest')
+data.setCell(4, 2, 'com.saucelabs.Tests.LongTest')
+data.setCell(4, 3, 108749);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'twoPlusTwoOperation')
+data.setCell(5, 2, 'com.saucelabs.Tests.TwoPlusTwoTest')
+data.setCell(5, 3, 77729);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'twoPlusTwoOperation')
+data.setCell(6, 2, 'com.saucelabs.Tests.TwoPlusTwoTest')
+data.setCell(6, 3, 76678);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'twoPlusTwoOperation')
+data.setCell(7, 2, 'com.saucelabs.Tests.TwoPlusTwoTest')
+data.setCell(7, 3, 72075);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'twoPlusTwoOperation')
+data.setCell(8, 2, 'com.saucelabs.Tests.TwoPlusTwoTest')
+data.setCell(8, 3, 69013);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'twoPlusTwoOperation')
+data.setCell(9, 2, 'com.saucelabs.Tests.TwoPlusTwoTest')
+data.setCell(9, 3, 67870);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.Tests.LongTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longTest(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">longTest(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">longTest(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.lo...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">longTest(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">longTest(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.LongTest.longTes...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=longTest status=SUCCESS method=LongTest.longTest(java.lang.String, java.lang.String...)</span>
+                <span class="method-start">108750 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=longTest status=SUCCESS method=LongTest.longTest(java.lang.String, java.lang.String...)</span>
+                <span class="method-start">110099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=longTest status=SUCCESS method=LongTest.longTest(java.lang.String, java.lang.String...)</span>
+                <span class="method-start">110199 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=longTest status=SUCCESS method=LongTest.longTest(java.lang.String, java.lang.String...)</span>
+                <span class="method-start">114458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=longTest status=SUCCESS method=LongTest.longTest(java.lang.String, java.lang.String...)</span>
+                <span class="method-start">115165 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.Tests.TwoPlusTwoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">twoPlusTwoOperation(Android, Samsung Galaxy S8 Plus GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)</span>
+                <span class="method-start">116145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoPlusTwoOperation(Android, Samsung Galaxy S7 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)</span>
+                <span class="method-start">116146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoPlusTwoOperation(Android, Samsung Galaxy S6 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)</span>
+                <span class="method-start">116148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoPlusTwoOperation(Android, Samsung Galaxy S8 GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoTest.t...)</span>
+                <span class="method-start">116148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoPlusTwoOperation(Android, Samsung Galaxy S7 Edge GoogleAPI Emulator, 7.1, public void com.saucelabs.Tests.TwoPlusTwoT...)</span>
+                <span class="method-start">116148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=twoPlusTwoOperation status=SUCCESS method=TwoPlusTwoTest.twoPlusTwoOperation(java.l...)</span>
+                <span class="method-start">184018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=twoPlusTwoOperation status=SUCCESS method=TwoPlusTwoTest.twoPlusTwoOperation(java.l...)</span>
+                <span class="method-start">185158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=twoPlusTwoOperation status=SUCCESS method=TwoPlusTwoTest.twoPlusTwoOperation(java.l...)</span>
+                <span class="method-start">188223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=twoPlusTwoOperation status=SUCCESS method=TwoPlusTwoTest.twoPlusTwoOperation(java.l...)</span>
+                <span class="method-start">192824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=twoPlusTwoOperation status=SUCCESS method=TwoPlusTwoTest.twoPlusTwoOperation(java.l...)</span>
+                <span class="method-start">193877 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
