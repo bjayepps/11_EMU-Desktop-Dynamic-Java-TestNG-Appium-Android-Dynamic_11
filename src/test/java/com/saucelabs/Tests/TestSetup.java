@@ -56,6 +56,8 @@ public class TestSetup {
               new Object[]{"Android", "Samsung Galaxy S7 Edge GoogleAPI Emulator", "7.1"},
               new Object[]{"Android", "Samsung Galaxy S8 GoogleAPI Emulator", "7.1"}
 
+// test  
+
                 //Uncomment the below for RDC
 //              new Object[]{"Android", "HTC Nexus 9", "7"},
 //              new Object[]{"Android", "Google Pixel", "7"},

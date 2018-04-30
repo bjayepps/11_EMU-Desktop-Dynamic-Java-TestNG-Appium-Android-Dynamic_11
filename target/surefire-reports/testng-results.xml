@@ -2,90 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="195079" started-at="2018-04-10T14:14:34Z" finished-at="2018-04-10T14:17:49Z">
+  <suite name="Command line suite" duration-ms="200114" started-at="2018-04-27T19:24:49Z" finished-at="2018-04-27T19:28:09Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="195079" started-at="2018-04-10T14:14:34Z" finished-at="2018-04-10T14:17:49Z">
+    <test name="Command line test" duration-ms="200114" started-at="2018-04-27T19:24:49Z" finished-at="2018-04-27T19:28:09Z">
       <class name="com.saucelabs.Tests.LongTest">
-        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="110198" started-at="2018-04-10T10:14:34Z" data-provider="devices" finished-at="2018-04-10T10:16:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy S6 GoogleAPI Emulator]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- longTest -->
-        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="110099" started-at="2018-04-10T10:14:34Z" data-provider="devices" finished-at="2018-04-10T10:16:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy S8 Plus GoogleAPI Emulator]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- longTest -->
-        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="115165" started-at="2018-04-10T10:14:34Z" data-provider="devices" finished-at="2018-04-10T10:16:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy S8 GoogleAPI Emulator]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- longTest -->
-        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="114457" started-at="2018-04-10T10:14:34Z" data-provider="devices" finished-at="2018-04-10T10:16:29Z">
+        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="115234" started-at="2018-04-27T15:24:49Z" data-provider="devices" finished-at="2018-04-27T15:26:44Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +33,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longTest -->
-        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="108749" started-at="2018-04-10T10:14:34Z" data-provider="devices" finished-at="2018-04-10T10:16:23Z">
+        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="119669" started-at="2018-04-27T15:24:49Z" data-provider="devices" finished-at="2018-04-27T15:26:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S8 Plus GoogleAPI Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longTest -->
+        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="122102" started-at="2018-04-27T15:24:49Z" data-provider="devices" finished-at="2018-04-27T15:26:51Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +85,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- longTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="971" started-at="2018-04-10T10:16:23Z" finished-at="2018-04-10T10:16:24Z">
+        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="115024" started-at="2018-04-27T15:24:49Z" data-provider="devices" finished-at="2018-04-27T15:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S6 GoogleAPI Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longTest -->
+        <test-method status="PASS" signature="longTest(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="longTest" duration-ms="119449" started-at="2018-04-27T15:24:49Z" data-provider="devices" finished-at="2018-04-27T15:26:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S8 GoogleAPI Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.saucelabs.Tests.LongTest.longTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- longTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="1365" started-at="2018-04-27T15:26:44Z" finished-at="2018-04-27T15:26:46Z">
           <params>
             <param index="0">
               <value>
@@ -148,7 +148,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="954" started-at="2018-04-10T10:16:24Z" finished-at="2018-04-10T10:16:25Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="2352" started-at="2018-04-27T15:26:44Z" finished-at="2018-04-27T15:26:47Z">
           <params>
             <param index="0">
               <value>
@@ -159,7 +159,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="1109" started-at="2018-04-10T10:16:24Z" finished-at="2018-04-10T10:16:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="988" started-at="2018-04-27T15:26:49Z" finished-at="2018-04-27T15:26:50Z">
           <params>
             <param index="0">
               <value>
@@ -170,7 +170,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="1041" started-at="2018-04-10T10:16:29Z" finished-at="2018-04-10T10:16:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="1016" started-at="2018-04-27T15:26:49Z" finished-at="2018-04-27T15:26:50Z">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="978" started-at="2018-04-10T10:16:29Z" finished-at="2018-04-10T10:16:30Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.LongTest@5419f379]" name="tearDown" is-config="true" duration-ms="1138" started-at="2018-04-27T15:26:51Z" finished-at="2018-04-27T15:26:52Z">
           <params>
             <param index="0">
               <value>
@@ -194,7 +194,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.saucelabs.Tests.LongTest -->
       <class name="com.saucelabs.Tests.TwoPlusTwoTest">
-        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="69013" started-at="2018-04-10T10:16:30Z" data-provider="devices" finished-at="2018-04-10T10:17:39Z">
+        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="73403" started-at="2018-04-27T15:26:52Z" data-provider="devices" finished-at="2018-04-27T15:28:06Z">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPlusTwoOperation -->
-        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="76678" started-at="2018-04-10T10:16:30Z" data-provider="devices" finished-at="2018-04-10T10:17:47Z">
+        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="73314" started-at="2018-04-27T15:26:52Z" data-provider="devices" finished-at="2018-04-27T15:28:06Z">
           <params>
             <param index="0">
               <value>
@@ -246,33 +246,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPlusTwoOperation -->
-        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="77729" started-at="2018-04-10T10:16:30Z" data-provider="devices" finished-at="2018-04-10T10:17:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Samsung Galaxy S8 GoogleAPI Emulator]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7.1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- twoPlusTwoOperation -->
-        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="72075" started-at="2018-04-10T10:16:30Z" data-provider="devices" finished-at="2018-04-10T10:17:42Z">
+        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="72184" started-at="2018-04-27T15:26:52Z" data-provider="devices" finished-at="2018-04-27T15:28:05Z">
           <params>
             <param index="0">
               <value>
@@ -298,7 +272,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPlusTwoOperation -->
-        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="67870" started-at="2018-04-10T10:16:30Z" data-provider="devices" finished-at="2018-04-10T10:17:38Z">
+        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="73164" started-at="2018-04-27T15:26:52Z" data-provider="devices" finished-at="2018-04-27T15:28:06Z">
           <params>
             <param index="0">
               <value>
@@ -324,7 +298,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPlusTwoOperation -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="1002" started-at="2018-04-10T10:17:38Z" finished-at="2018-04-10T10:17:39Z">
+        <test-method status="PASS" signature="twoPlusTwoOperation(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="twoPlusTwoOperation" duration-ms="74368" started-at="2018-04-27T15:26:52Z" data-provider="devices" finished-at="2018-04-27T15:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy S8 GoogleAPI Emulator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.saucelabs.Tests.TwoPlusTwoTest.twoPlusTwoOperation(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoPlusTwoOperation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="1013" started-at="2018-04-27T15:28:05Z" finished-at="2018-04-27T15:28:06Z">
           <params>
             <param index="0">
               <value>
@@ -335,7 +335,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="1022" started-at="2018-04-10T10:17:39Z" finished-at="2018-04-10T10:17:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="993" started-at="2018-04-27T15:28:06Z" finished-at="2018-04-27T15:28:07Z">
           <params>
             <param index="0">
               <value>
@@ -346,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="954" started-at="2018-04-10T10:17:42Z" finished-at="2018-04-10T10:17:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="1228" started-at="2018-04-27T15:28:06Z" finished-at="2018-04-27T15:28:07Z">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="964" started-at="2018-04-10T10:17:47Z" finished-at="2018-04-10T10:17:48Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="1080" started-at="2018-04-27T15:28:06Z" finished-at="2018-04-27T15:28:07Z">
           <params>
             <param index="0">
               <value>
@@ -368,7 +368,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="1132" started-at="2018-04-10T10:17:48Z" finished-at="2018-04-10T10:17:49Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.Tests.TwoPlusTwoTest@4520ebad]" name="tearDown" is-config="true" duration-ms="2462" started-at="2018-04-27T15:28:07Z" finished-at="2018-04-27T15:28:09Z">
           <params>
             <param index="0">
               <value>

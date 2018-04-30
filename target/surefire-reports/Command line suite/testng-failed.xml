@@ -5,10 +5,15 @@
     <classes>
       <class name="com.saucelabs.Tests.LongTest">
         <methods>
-          <include name="longTest" invocation-numbers="3 4"/>
+          <include name="longTest" invocation-numbers="2 4 0 1 3"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.saucelabs.Tests.LongTest -->
+      <class name="com.saucelabs.Tests.TwoPlusTwoTest">
+        <methods>
+          <include name="twoPlusTwoOperation" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.saucelabs.Tests.TwoPlusTwoTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->
